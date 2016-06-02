@@ -8,8 +8,8 @@ import ml.algorithms.MLAlgorithmFactory;
  *Core class to run algorithm on request and fix input or handle request based on attack type.
  */
 public class WebappSecurity {
-	private Request request;
-	public WebappSecurity(Request request) {
+	private Object request;
+	public WebappSecurity(Object request) {
 		this.request = request;
 	}
 	public void run(){
